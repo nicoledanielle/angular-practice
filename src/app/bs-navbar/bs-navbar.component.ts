@@ -11,7 +11,7 @@ export class BsNavbarComponent {
    }
 
   logout() {
-    this.auth.logout
+    this.auth.logout();
   }
 
 }
